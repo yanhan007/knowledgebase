@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-06-03 21:15:58",
+  "engine_config": {
+    "llm_provider": "deepseek",
+    "llm_model": "deepseek-chat"
+  },
+  "test_results": [
+    {
+      "question": "什么是 GIS？",
+      "category": "基础概念",
+      "passed": true,
+      "elapsed_ms": 1306.7152500152588,
+      "answer_length": 545,
+      "citations_count": 5,
+      "match_details": "匹配: 5/5 (100%)"
+    },
+    {
+      "question": "测绘学是什么？",
+      "category": "基础概念",
+      "passed": true,
+      "elapsed_ms": 633.4218978881836,
+      "answer_length": 447,
+      "citations_count": 5,
+      "match_details": "匹配: 4/5 (80%) | 缺失: 测量"
+    },
+    {
+      "question": "遥感技术的原理是什么？",
+      "category": "基础概念",
+      "passed": true,
+      "elapsed_ms": 934.880256652832,
+      "answer_length": 495,
+      "citations_count": 5,
+      "match_details": "匹配: 3/3 (100%)"
+    },
+    {
+      "question": "GIS 有哪些核心功能？",
+      "category": "细节查询",
+      "passed": true,
+      "elapsed_ms": 1130.8677196502686,
+      "answer_length": 560,
+      "citations_count": 5,
+      "match_details": "匹配: 4/4 (100%)"
+    },
+    {
+      "question": "常用的遥感卫星有哪些？",
+      "category": "细节查询",
+      "passed": true,
+      "elapsed_ms": 1674.668550491333,
+      "answer_length": 586,
+      "citations_count": 5,
+      "match_details": "匹配: 4/4 (100%)"
+    },
+    {
+      "question": "空间分析有哪些方法？",
+      "category": "细节查询",
+      "passed": true,
+      "elapsed_ms": 1986.6981506347656,
+      "answer_length": 902,
+      "citations_count": 5,
+      "match_details": "匹配: 4/4 (100%)"
+    },
+    {
+      "question": "遥感技术有哪些应用？",
+      "category": "应用场景",
+      "passed": true,
+      "elapsed_ms": 1219.21968460083,
+      "answer_length": 529,
+      "citations_count": 5,
+      "match_details": "匹配: 4/4 (100%)"
+    },
+    {
+      "question": "现代测绘技术包括哪些？",
+      "category": "应用场景",
+      "passed": true,
+      "elapsed_ms": 1457.5519561767578,
+      "answer_length": 626,
+      "citations_count": 5,
+      "match_details": "匹配: 4/4 (100%)"
+    },
+    {
+      "question": "GIS 和遥感有什么关系？",
+      "category": "综合分析",
+      "passed": true,
+      "elapsed_ms": 1986.086130142212,
+      "answer_length": 629,
+      "citations_count": 5,
+      "match_details": "匹配: 3/3 (100%)"
+    },
+    {
+      "question": "如何进行空间插值分析？",
+      "category": "综合分析",
+      "passed": true,
+      "elapsed_ms": 1904.4740200042725,
+      "answer_length": 680,
+      "citations_count": 5,
+      "match_details": "匹配: 5/5 (100%)"
+    }
+  ],
+  "benchmark": {
+    "total_queries": 10,
+    "successful_queries": 10,
+    "failed_queries": 0,
+    "total_time_ms": 12040.629148483276,
+    "avg_query_time_ms": 1204.0629148483276,
+    "p50_query_time_ms": 1137.298583984375,
+    "p95_query_time_ms": 2007.4408054351807,
+    "p99_query_time_ms": 2007.4408054351807
+  }
+}

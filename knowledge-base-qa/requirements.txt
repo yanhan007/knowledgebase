@@ -1,0 +1,33 @@
+# 文档加载
+pypdf2>=3.0.0
+python-docx>=0.8.11
+
+# LangChain 核心
+langchain-core>=0.1.0
+langchain-huggingface>=0.1.0
+
+# 向量化
+sentence-transformers>=2.2.0
+
+# 向量存储
+chromadb>=0.4.0
+
+# BM25 检索
+rank_bm25>=0.2.2
+
+# LLM 调用
+openai>=1.0.0
+tiktoken>=0.5.0
+pyyaml>=6.0
+
+# Web 界面
+streamlit>=1.28.0
+gradio==5.50.0
+huggingface-hub>=1.18.0
+
+# Hugging Face 镜像配置
+# 在 config/settings.py 中已设置 HF_ENDPOINT=https://hf-mirror.com
+
+# 工具库
+python-dotenv>=1.0.0
+pydantic>=2.0.0
